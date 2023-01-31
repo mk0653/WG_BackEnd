@@ -2,7 +2,7 @@ import json
 
 def lambda_handler(event, context):
 
-    str = he.hello()
+    str = hello()
     return {
         'statusCode': 200,
         'body':json.dumps(str),
