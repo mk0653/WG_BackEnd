@@ -10,4 +10,4 @@ def lambda_handler(event, context):
     }
 
 def hello():
-    return "Hello World Test2"
+    return "Hello World Test3"
