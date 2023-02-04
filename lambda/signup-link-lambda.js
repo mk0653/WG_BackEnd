@@ -15,5 +15,4 @@ exports.signupLinkToDBHandler = async (event, context, callback) => {
   );
   callback(null, event);
   
-  
 };
