@@ -3,9 +3,9 @@ const docClient = new dynamodb.DocumentClient();
 
 exports.signupLinkToDBHandler = async (event, context, callback) => {
   var params = {
-    TableName: "User_ID",
+    TableName: "user",
     Item: {
-      id: event.userName,
+      User_ID: event.userName,
     },
   };
   const result = await docClient.put(params).promise();
