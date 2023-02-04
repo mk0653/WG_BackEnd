@@ -14,5 +14,4 @@ exports.signupLinkToDBHandler = async (event, context, callback) => {
     `cognito user link to dynamodb id=${event.userName} email=${event.request.userAttributes.email} result=${result}`
   );
   callback(null, event);
-  
 };
