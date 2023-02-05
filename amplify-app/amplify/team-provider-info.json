@@ -10,6 +10,14 @@
       "StackName": "amplify-deploytest-dev-55051",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:791070331327:stack/amplify-deploytest-dev-55051/9d103750-a4cd-11ed-9778-0e9f181ce831",
       "AmplifyAppId": "d2whnapg3c4viw"
+    },
+    "categories": {
+      "auth": {
+        "deploytest535512de": {}
+      },
+      "api": {
+        "deploytest": {}
+      }
     }
   }
 }
