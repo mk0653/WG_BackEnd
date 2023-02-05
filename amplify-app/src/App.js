@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import Amplify, { API, graphqlOperation } from 'aws-amplify';
+import  Amplify , { API, graphqlOperation } from 'aws-amplify';
 import { createNote, deleteNote } from './graphql/mutations';
 import { listNotes } from './graphql/queries';
 
